@@ -13,6 +13,8 @@ const allowedOrigins = [
   "http://localhost:3000",
   "http://192.168.25.249:3000",
   "https://food-delivery-frontend-rleg.onrender.com",
+  "https://food-delivery-backend-ivdw.onrender.com",
+  "https://food-delivery-admin-h3qs.onrender.com",
 ];
 
 // app config
