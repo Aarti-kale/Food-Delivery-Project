@@ -1,26 +1,3 @@
-// import React from 'react'
-// import {Route, Routes} from 'react-router-dom'
-// import AdminNavbar from './Components/Navbar/AdminNavbar'
-// import SideBar from '../src/Components/Sidebar/SideBar'
-// import Add from './Pages/Add/Add.jsx';
-// import List from './Pages/List/List.jsx';
-// import Orders from './Pages/Orders/Orders.jsx';
-// const App = () => {
-//   return (
-//     <div>
-//       <AdminNavbar/>
-//       <SideBar/>
-//       <Routes>
-//         <Route path="/add" element={<Add/>}/>
-//         <Route path="/list" element={<List/>}/>
-//         <Route path="/orders" element={<Orders/>}/>
-//       </Routes>
-//     </div>
-//   )
-// }
-
-// export default App
-
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AdminNavbar from "./Components/Navbar/AdminNavbar";
@@ -33,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const url = "http://localhost:4000";
+  const url = "https://food-delivery-backend-ivdw.onrender.com";
 
   return (
     <div className="d-flex flex-column vh-100">
