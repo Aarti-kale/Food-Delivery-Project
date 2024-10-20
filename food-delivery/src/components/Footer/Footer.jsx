@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="col-md-3">
             <h5>Contact Us </h5>
             <ul className="list-unstyled">
-              <li>Address: 123 Ramdoh street, Ramdoh, India</li>
-              <li>Phone: 7666323135</li>
+              <li>Address:  Ramdoh street, Ramdoh, India</li>
+              <li>Phone: +1 (123) 456-7890</li>
               <li>Email: aartikale750@gmail.com</li>
             </ul>
           </div>

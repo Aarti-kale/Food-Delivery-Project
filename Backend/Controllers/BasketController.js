@@ -1,8 +1,7 @@
 import userModel from "../Models/UserModel.js";
 
 const addToCart = async (req, res) => {
-  // working but not stored in database
-  // now this code is running perfectly
+  
   try {
     let userData = await userModel.findById(req.body.userId);
     let basketData = await userData.basketData;
