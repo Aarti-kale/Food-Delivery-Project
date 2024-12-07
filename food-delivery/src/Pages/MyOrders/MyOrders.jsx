@@ -12,6 +12,8 @@ const MyOrders = () => {
     if (!token) {
       return;
     }
+    console.log("Token ",token);
+    console.log("url:",url);
 
     const fetchOrders = async () => {
       try {
