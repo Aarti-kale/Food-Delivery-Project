@@ -58,8 +58,8 @@ const Header = () => {
               <button
                 className="btn btn-primary"
                 style={{
-                  backgroundColor: "#007bff",
-                  borderColor: "#007bff",
+                  backgroundColor: "#ffc107",
+                  borderColor: "ffc107",
                   fontSize: "1.25rem",
                   padding: "0.5rem 1.5rem",
                   borderRadius: "30px",
